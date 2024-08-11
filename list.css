@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   box-sizing: border-box;
+  }
+
+
+
+.container{
+  width: 500px;
+  height: 600px;
+  background-color: #9BEC00; 
+margin-top: 10px;
+   display: flex;
+ border-radius: 2%;
+ box-shadow: 3px 4px 4px 5px rgb(151, 49, 49);
+ 
+   left: 50%;
+   transform: translate(75%, 20%);
+}
+
+
+
+
+  header{
+    text-align: top;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: blue;
+    text-decoration: underline;
+    padding-bottom: 1.1rem;
+    margin-top: 10px;
+    margin-left: 5px;
+    
+  }
+
+  header i{
+    color: #1b1b19;
+    font-size: 40px;
+    padding-left: 0.3em;
+  }
+ 
+
+  
+
+  form{
+    display: flex;
+    font-size: larger;
+  }
+  input{
+   padding: 10px;
+   border-radius: 3px;
+   color: #131842;
+   background-color: aqua;
+   border: navy;
+   font-size: larger;
+   margin-left: 5px;
+  }
+  input::placeholder{
+    font-size: 20px;
+    padding: 3px;
+  }
+  button{
+    padding: 10px;
+    border-radius: 3px;
+    color: rgb(128, 0, 0);
+    background-color:#FF8225;
+    border: navy;
+    font-weight:400;
+    font-size: larger;
+   }
+  .addBtn:hover{
+    padding: 15px;
+    border-radius: 6px;
+    color:#F6FB7A;
+    background-color:#FF8225;
+    border: navy;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s;
+    opacity: 100%;
+    transition-duration: 0.2s;
+
+   }
+   .listStyle li{
+list-style: none;
+font-size: large;
+display: block;
+font-weight: 400;
+margin-top: 10px;
+color: #683a3a;
+width: 10rem,fit-content;
+height: 30px;
+background-color: rgb(255, 88, 22);
+border-radius: 2px;
+align-items: center;
+text-align: start;
+}
+
+
+.deleteTask{
+  width: auto;
+  height: 20px;
+  font-size: large;
+ padding: 1px;
+  background-color: rgb(0, 0, 0);
+  color: #180d77;
+  position: relative;
+  display: flex;
+  border: none;
+  margin-left: 45%;
+  margin-top: 5px;
+ flex-direction: row; /* Change flex-direction to row */
+  align-items: center;
+  justify-content: center;bottom: 20px; /* Optional: Align items vertically in the center */
+
+
+}
+.deleteTask:hover{
+  cursor: pointer;
+}
